@@ -1,5 +1,11 @@
 import streamlit as st
 import time
+[theme]
+base="dark"
+primaryColor="forestGreen"
+
+[theme.sidebar]
+primaryColor="darkGoldrod"
 city_list = ["Seattle","Issaquah","Auburn","Snoqualmie","Spokane"]
 user_city = st.selectbox("Put in the city you live closest to", city_list)
 time.sleep(3)
